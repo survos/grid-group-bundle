@@ -5,7 +5,7 @@ declare(strict_types=1);
 namespace Survos\GridGroupBundle\Model;
 
 use App\Entity\Field\Field;
-use App\Entity\Instance;
+use App\Entity\Loc;
 
 class Property implements \Stringable
 {
@@ -206,4 +206,3 @@ class Property implements \Stringable
 
     }
 }
-
